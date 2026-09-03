@@ -1,0 +1,9 @@
+# 実行に必要なライブラリ
+streamlit      # 画面(ブラウザで動く簡易 UI)
+pandas         # 表データの読み込み・集計
+openpyxl       # Excel の読み書き
+altair         # グラフ(Streamlit に同梱。ホバーで値を表示できる)
+
+# 開発用(テスト・Lint)
+pytest
+ruff
